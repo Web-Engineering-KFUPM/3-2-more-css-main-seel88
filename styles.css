@@ -34,7 +34,13 @@
       2. Define --brand-dark variable and set a darker color value of #1d4ed8 for hover states
   - Apply a global box-sizing reset using the universal selector (hint use * selector).
 */
-
+:root {
+  --brand: #2563eb;
+  --brand-dark: #1d4ed8;
+  --muted: #6b7280;        /* muted text */
+  --bg: #f6f7fb;           /* page background */
+  --card: #ffffff;         /* card/background surfaces */
+}
 * {
   box-sizing: border-box; 
 }
@@ -175,13 +181,7 @@ body {
   color: #111827;
 }
 
-:root {
-  --brand: #2563eb;
-  --brand-dark: #1d4ed8;
-  --muted: #6b7280;        /* muted text */
-  --bg: #f6f7fb;           /* page background */
-  --card: #ffffff;         /* card/background surfaces */
-}
+
 
 .site-header,
 .site-footer {
